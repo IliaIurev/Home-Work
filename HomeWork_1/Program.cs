@@ -44,3 +44,20 @@ for(int i = 2; i<N+1; i+=2){
     Console.Write($"{i}  ");
 }*/
 //
+
+
+
+
+//Домашнее задание 2
+// Задача 10
+/*
+Console.WriteLine("Введите трёхзначное число: ");
+int num = int.Parse(Console.ReadLine()!);
+if (num<1000 && num>99){
+    num = num/10;
+    int a = num%10;
+    Console.WriteLine($"Третья цифра числа: {a}");
+}else{
+    Console.WriteLine("Вы ввели нетрёхзначное число");
+}
+*/
